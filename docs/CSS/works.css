@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --first:#1E201E;
+    --second:#3C3D37;
+    --third: #697565;
+    --fourth: #ECDFCC;
+
+}
+
+body{
+    display: flex;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    background-image: url(/IPT_FRAYRES/images/Animation-wallpapers-14.jpg);
+    width: 100%;
+}
+nav {
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background:rgba(0,0,0,.2);
+    color:#fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0.5px 5px black;
+
+
+}
+nav a{
+    color: white;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: #3f433f;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    gap: 2em;
+}
+img{
+    width: 200px;
+    margin-top: 30px;
+    height: 200px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 1px 5px black;
+
+}
+img:hover{
+    transition: 0.3s ease-in-out;
+    object-fit: cover; 
+    box-shadow: 0 0 10px black;
+    scale: 1.2;
+}
+.proj{
+    margin-top: 20px;
+}
+.proj p{
+    font-size: 50px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 1px 5px black;
+}
+
+footer a {
+    color: black;
+    font-size: 40px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--third);
+}
